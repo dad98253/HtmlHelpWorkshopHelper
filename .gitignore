@@ -395,3 +395,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# project spcific ignores:
+*.htm
+*.toc_snips
+*.hhp_snips

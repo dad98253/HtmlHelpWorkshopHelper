@@ -1,0 +1,66 @@
+My Secret Box Help;AboutSBHtopics.htm
+General topics;SBHgeneral.htm
+	The purpose of your Secret Box;purpose.htm
+		Importance of unique passwords for every site;importanceOfUnique.htm
+	Getting help;gettingHelp.htm
+	First time use;firstTimeUse.htm
+		The secrets database;secretsDB.htm
+		The master password;masterPW.htm
+	Saving a secret;savingAsecret.htm
+		Simple secrets;simpleSecretsSave.htm
+		Complex secrets;complexSecretsSave.htm
+			Adding auxiliary secrets;auxPW.htm
+			Archiving secrets;archiving.htm
+			Generating random passwords;genRandomPW.htm
+				Safety of random passwords;safetyOfRandom.htm
+			Testing passwords from the edit window;testingPWedits.htm
+	Finding a secret;findingSecrets.htm
+		Using the list;usingListBox.htm
+		Using the search box;usingSearchBox.htm
+	Using a secret;usingAsecret.htm
+		Timeout!;timeout.htm
+		Normal web sites;normalWebSites.htm
+		Problem web sites;problemWebSites.htm
+		Displaying passwords;displayPWs.htm
+	Changing secret data;changingAsecret.htm
+		Simple secrets;simpleSecretsChange.htm
+		Complex secrets;complexSecretsChange.htm		
+	Deleting a secret;deletingAsecret.htm
+	Changing the master password;chaningMasterPW.htm
+		Picking a good master password;pickingAgoodMaster.htm
+	Backing up secrets;backingUpSecrets.htm
+		Local backups;localBackups.htm
+		Remote backups;remoteBackups.htm
+Search functionality;searchFunction.htm
+	Simple searches;simpleSearch.htm
+	Complex searches;complexSearch.htm
+Settings;settings.htm
+	Global settings;globalSettings.htm
+	Database settings;databaseSettings.htm
+Technical details and specifications;TechDetails.htm
+	Available versions;availableVersions.htm
+	Command line parameters;commandLineArgs.htm
+		Command line help;commandLineHelp.htm
+	Encryption details;encryptionDetails.htm
+	File formats;fileFormats.htm
+	Clipboard use;clipboardUse.htm
+	Memory use;memoryUse.htm
+Troubleshooting;troubleshooting.htm
+	Displaying version information;displayingVersionInfo.htm
+	Displaying file information;displayingFileInfo.htm
+	Displaying last change date of a secret;displayingLastChangeDate.htm
+	Recovering from a crash;recoveringFromAcrash.htm
+	Restoring from a backup file;restorinmgFromBackups.htm
+	Using text mode;usingTextMode.htm
+		Tutor overview;tutorOverview.htm
+		Definitions;tutorDefinitions.htm
+		Display Point layout;displayPointLayout.htm
+		Type ahead;typeAhead.htm
+		Menus;menusTutor.htm
+		Text input;textInput.htm
+		List input;listInput.htm
+			Single mode;singleMode.htm
+			Recursive mode;recursiveMode.htm
+		Alternate input file;alternateInputFile.htm
+		Alternate output file;alternateOutputFile.htm			
+	Using a debug version;usingAdebugVersion.htm

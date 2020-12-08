@@ -1,0 +1,14 @@
+<p>
+
+<OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100
+>
+    <PARAM name="Command" value="Related Topics, MENU">
+    <PARAM name="Button" value="Text:Related Topics">
+    <PARAM name="Item1" value="To find a help topic;topic.htm">
+    <PARAM name="Item2" value="To view help topics grouped by information type;custom.htm">
+    <PARAM name="Item3" value="To find topics using the toolbar buttons;move.htm">
+</OBJECT>
+</p>
