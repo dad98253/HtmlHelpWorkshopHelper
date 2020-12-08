@@ -403,4 +403,6 @@ FodyWeavers.xsd
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+hhp.txt
+toc.txt
 
