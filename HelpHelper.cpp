@@ -84,30 +84,31 @@ int main(int argc, char* argv[])
 	while ((read = getline(&line, &len, fp)) != -1) {
 		//	        printf("Retrieved line of length %zu:\n", read);
 		line[read - 1] = '\000';
+
+		// find the ;
+		htmfile = strchr(line, ';');
+		if (htmfile == NULL)
+		{
+			printf("could not find a ; in this line!\n");
+			return(6);
+		}
+		*htmfile = '\000';
+		htmfile++;
+		trimleadingandTrailing(htmfile);
 		title = line;
-		for (i = 0, level = 0; i < (int)read; i++) {
+		for (i = 0, level = 0; i < strlen(line); i++) {
 			if (line[i] == '\t') {
 				level++;
 				title++;
 			}
 		}
 		if (level > 10) {
-			fprintf(stderr,"too many levels\n");
-			return(6);
-		}
-		printf(" line found : \"%s\", level is %i\n", line, level);
-		// find the ;
-		htmfile = strchr(line, ';');
-		if (htmfile == NULL)
-		{
-			printf("could not find a ; in this line!\n");
+			fprintf(stderr, "too many levels\n");
 			return(7);
 		}
-		*htmfile = '\000';
-		htmfile++;
+		printf(" line found : \"%s\", level is %i\n", line, level);
 		printf(" Title = \"%s\", file name = \"%s\"\n", title, htmfile);
 		rewind(fp2);
-		trimleadingandTrailing(htmfile);
 		fp3 = fopen(htmfile, "w");
 		if (fp3 == NULL) {
 			return(8);
@@ -119,6 +120,10 @@ int main(int argc, char* argv[])
 		fclose(fp3);
 		if (level > currentlevel) {
 			fprintf(fp4, "%.*s<UL>\n", currentlevel+1, tabs);
+			if ((level - currentlevel) > 1) {
+				fprintf(stderr, "indent increase greater than 1\n");
+				return(9);
+			}
 		}
 		while (level < currentlevel) {
 			fprintf(fp4, "%.*s</UL>\n", currentlevel, tabs);
