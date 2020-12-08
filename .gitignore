@@ -399,3 +399,8 @@ FodyWeavers.xsd
 *.htm
 *.toc_snips
 *.hhp_snips
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
