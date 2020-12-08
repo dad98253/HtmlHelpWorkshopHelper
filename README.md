@@ -25,3 +25,5 @@ To use it, create the outline file in outline.txt and the baseline template file
 All you need to do now is fire up SeaMonkey on each of your template htm files to compose your actual help topics!
 
 Note: If the string "xtitlex" is found anywhere in your baseline htm template file, it will be replaced with the title from the outline file in the generated template.
+
+Important: The program can handle going down multiple indentation levels in a single jump. However, it expects to only increase indent one level at a time.
