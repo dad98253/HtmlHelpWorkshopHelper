@@ -1,11 +1,12 @@
 My Secret Box Help;AboutSBHtopics.htm
+	Getting help;gettingHelp.htm
 	General topics;SBHgeneral.htm
 		The purpose of your Secret Box;purpose.htm
 			Importance of unique passwords for every site;importanceOfUnique.htm
-		Getting help;gettingHelp.htm
 		First time use;firstTimeUse.htm
 			The secrets database;secretsDB.htm
 			The master password;masterPW.htm
+			How to choose a good master password;goodMasterPW.htm
 		Saving a secret;savingAsecret.htm
 			Simple secrets;simpleSecretsSave.htm
 			Complex secrets;complexSecretsSave.htm
@@ -25,7 +26,9 @@ My Secret Box Help;AboutSBHtopics.htm
 		Changing secret data;changingAsecret.htm
 			Simple secrets;simpleSecretsChange.htm
 			Complex secrets;complexSecretsChange.htm
+			Renaming a secret;renamingAsecret.htm
 		Deleting a secret;deletingAsecret.htm
+			Un-deleting a secret;undeletingAsecret.htm
 		Changing the master password;chaningMasterPW.htm
 			Picking a good master password;pickingAgoodMaster.htm
 		Backing up secrets;backingUpSecrets.htm

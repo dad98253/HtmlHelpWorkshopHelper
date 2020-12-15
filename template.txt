@@ -5,16 +5,15 @@
       charset=windows-1252">
     <meta name="GENERATOR" content="Microsoft HTML Help Workshop 4.2">
     <title>xtitlex</title>
+    <link rel="stylesheet" type="text/css" href="coua.css">
   </head>
-  
-  <body style="background-repeat:no-repeat;"background="winhelppics\blue.jpg">
-  
+    
     <img src="winhelppics\happysafe.png" height="60" border="0"align="right" width="60">
       
     <h1>xtitlex</h1>
     
-    <p>Paragraph1</p>
-    <p>paragraph2</p>
+    <p class="noindent" >Paragraph1</p>
+    <p>Paragraph2</p>
     <p>Paragraph3</p>
     
     <ul>
